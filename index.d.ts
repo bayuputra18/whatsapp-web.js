@@ -74,6 +74,7 @@ declare namespace WAWebJS {
 
         /** Force reset of connection state for the client */
         resetState(): Promise<void>
+            
 
         /** Send a message to a specific chatId */
         sendMessage(chatId: string, content: MessageContent, options?: MessageSendOptions): Promise<Message>
